@@ -1,0 +1,50 @@
+#first{
+    width: 1000px;
+    height: 800px;
+    background-color: yellow;
+    margin: auto;
+}
+#first > .se{
+    width: 1000px;
+    height: 250px;
+    background-color: red;
+    display: flex;
+    justify-content: right;
+
+}
+#first > .se > .se-1 {
+    width: 500px;
+    height: 250px;
+    
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+}
+#first > .se > .se-1 > menu{
+    display: flex;
+}
+#first > .se > .se-1 > menu > li{
+    width: 50px;
+    height: 40px;
+    list-style: none;
+    text-align: center;
+
+}
+
+
+#first > .th{
+    width: 1000px;
+    height: 250px;
+    background-color: orange;
+}
+#first > .fo{
+    width: 1000px;
+    height: 250px;
+    background-color: yellow;
+}
+#first > .fi{
+    width: 1000px;
+    height: 250px;
+    background-color: green;
+}

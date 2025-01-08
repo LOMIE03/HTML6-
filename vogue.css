@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}   
+#all{
+    width: 805px;
+    height: 668px;
+
+    margin: auto;
+}
+#all > #main{
+    width: 805px;
+    height: 334px;
+
+}
+#all > #main > .header{
+    width: 805px;
+    height: 47px;
+
+    display: flex;
+}
+#all > #main > .nav{
+    width: 805px;
+    height: 287px;
+
+}
+#all > #ya{
+    width: 805px;
+    height: 334px;
+
+}
+#all > #ya > .foot1{
+    width: 805px;
+    height: 287px;
+
+}
+#all > #ya > .foot2{
+    width: 805px;
+    height: 47px;
+    background-color: black;
+
+}
+.menu{
+    width: 800px;
+    height: 47px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+}
+menu{
+    display: flex;
+}
+menu > li{
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    list-style: none;
+}
+menu > li > .re{
+    width: 90px;
+}
+.logo{
+    width: 200px;
+    height: 47px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vogue{    
+    width: 150px;
+    height: 40px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barimg{
+    width: 800px;
+    height: 287px;
+}
+.foot1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picturele{
+    width: 200px;
+    height: 287px;
+
+    
+}
+.le-1{
+    width: 199px;
+    height: 143px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.le-2{
+    width: 199px;
+    height: 143px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pictureri{
+    width: 605px;
+    height: 287px;
+
+}
+.ri1{
+    display: flex;
+}
+.ri-1-1{
+    width: 200px;
+    height: 143px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ri2-1{
+    width: 605px;
+    height: 143px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vogue0{
+    width: 605px;
+    height: 47px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.foot2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

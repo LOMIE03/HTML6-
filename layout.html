@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .header {
+        width: 960px;
+        height: 200px;
+        background-color: darkcyan;
+        display: flex;
+      }
+      .header > .logo {
+        width: 200px;
+        height: 200px;
+        background-color: darkgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .header > .nav{
+        width: 760px;
+        height: 200px;
+        background-color: lightcoral;
+      }
+      .nav > .row {
+        width: 760px;
+        height: 100px;
+        background-color: lightgoldenrodyellow;
+      }
+      .nav > .row > menu{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+      menu > li{
+        list-style: none;
+        width: 100px;
+        height: 40px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 40px;
+      }
+      .nav > .row > ul{
+        display: flex;
+      }
+      ul > li{
+        list-style: none;
+        width: 100px;
+        height: 40px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 40px;
+      }
+      .nav > .pos2{
+        display: flex;
+        justify-content:flex-end;
+        align-items: flex-end;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <h3>
+          Rint Development <br />
+          html5 + css basic
+        </h3>
+      </div>
+      <div class="nav">
+        <div class="row pos1">
+            <menu>
+                <li><a href="#">web</a></li>
+                <li><a href="#">mobile</a></li>
+                <li><a href="#">game</a></li>
+                <li><a href="#">simulation</a></li>
+                <li><a href="#">data</a></li>
+            </menu>
+        </div>
+        <div class="row pos2">
+            <ul>
+                <li><a href="#">HTML5</a></li>
+                <li><a href="#">CSS3</a></li>
+                <li><a href="#">Javascript</a></li>
+                <li><a href="#">Jquery</a></li>
+                <li><a href="#">node.js</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
