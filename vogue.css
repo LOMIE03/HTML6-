@@ -11,6 +11,10 @@
 #all > #main{
     width: 805px;
     height: 334px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 
 }
@@ -27,6 +31,10 @@
     width: 805px;
     height: 287px;
 
+}
+.nav .barimg{
+    width: 805px;
+    height: 287px;
 }
 #all > #ya{
     width: 805px;
@@ -100,48 +108,68 @@ menu > li > .re{
     
 }
 .le-1{
-    width: 199px;
+    width: 197px;
     height: 143px;
+    border: 2px solid lightblue;
     display: flex;
  
 }
 .le-2{
-    width: 199px;
+    width: 197px;
     height: 143px;
     display: flex;
-  
+    border: 2px solid lightblue;
 }
 .pictureri{
     width: 605px;
     height: 287px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 
 }
 .ri1{
+    width: 605px;
+    height: 287px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ri-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
 }
 .ri-1-1{
-    width: 200px;
+    width: 197px;
     height: 143px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid lightgreen;
 }
 .ri2-1{
-    width: 605px;
+    width: 600px;
     height: 143px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid lightgreen;
 }
 .vogue0{
     width: 605px;
-    height: 47px;
+    height: 33px;
     display: flex;
    justify-content: center;
    align-items: center;
 }
 .foot2{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
