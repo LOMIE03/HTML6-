@@ -11,14 +11,15 @@
 #all > #main{
     width: 805px;
     height: 334px;
+    
 
 }
 #all > #main > .header{
     width: 805px;
     height: 47px;
-
     display: flex;
 }
+
 #all > #main > .nav{
     width: 805px;
     height: 287px;
@@ -53,7 +54,7 @@ menu{
 }
 menu > li{
     width: 100px;
-    height: 45px;
+    height: 5px;
     text-align: center;
     list-style: none;
 }
