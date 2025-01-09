@@ -11,14 +11,18 @@
 #all > #main{
     width: 805px;
     height: 334px;
+    
 
 }
 #all > #main > .header{
     width: 805px;
     height: 47px;
-
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
 #all > #main > .nav{
     width: 805px;
     height: 287px;
@@ -53,7 +57,7 @@ menu{
 }
 menu > li{
     width: 100px;
-    height: 45px;
+    height: 5px;
     text-align: center;
     list-style: none;
 }
@@ -89,22 +93,23 @@ menu > li > .re{
 .picturele{
     width: 200px;
     height: 287px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     
 }
 .le-1{
     width: 199px;
     height: 143px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+ 
 }
 .le-2{
     width: 199px;
     height: 143px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+  
 }
 .pictureri{
     width: 605px;
